@@ -31,7 +31,10 @@ int parse(char * lpszFileName)
 
 		//Remove newline character at end if there is one
 		lpszLine = strtok(szLine, "\n"); 
-
+		//check spce or blank
+		isspace(lpszLine)
+		isblank(lpszLine)
+		
 		//You need to check below for parsing. 
 		//Skip if blank or comment.
 		//Remove leading whitespace.
